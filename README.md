@@ -1,4 +1,4 @@
-## This package is based on the repo no more maintained by nicolasbeauvais.
+## This package is based on the repo maintained by hevelius.
 
 # Flysystem adapter for the Microsoft OneDrive API
 
