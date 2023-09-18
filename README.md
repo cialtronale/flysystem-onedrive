@@ -3,8 +3,7 @@
 # Flysystem adapter for the Microsoft OneDrive API
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/hevelius/flysystem-onedrive.svg?style=flat-square)](https://packagist.org/packages/hevelius/flysystem-onedrive)
-[![Build Status](https://img.shields.io/travis/hevelius/flysystem-onedrive/master.svg?style=flat-square)](https://travis-ci.org/hevelius/flysystem-onedrive)
-[![Total Downloads](https://img.shields.io/packagist/dt/hevelius/flysystem-onedrive.svg?style=flat-square)](https://packagist.org/packages/hevelius/flysystem-onedrive)
+
 
 This package contains a [Flysystem](https://flysystem.thephpleague.com/) adapter for OneDrive. Under the hood, the [Microsoft Graph SDK](https://github.com/microsoftgraph/msgraph-sdk-php) is used.
 
@@ -13,14 +12,14 @@ This package contains a [Flysystem](https://flysystem.thephpleague.com/) adapter
 You can install the package via composer:
 
 ``` bash
-composer require hevelius/flysystem-onedrive
+composer require cialtronale/flysystem-onedrive
 ```
 or add direct this repo in composer.json
 
 ```json
 "repositories": [
         {
-            "url": "https://github.com/hevelius/flysystem-onedrive.git",
+            "url": "https://github.com/cialtronale/flysystem-onedrive.git",
             "type": "git"
         }
     ],
@@ -68,6 +67,7 @@ If you discover any security related issues, please email nicolasbeauvais1@gmail
 
 - [Nicolas Beauvais](https://github.com/nicolasbeauvais)
 - [Mario Perrotta](https://github.com/hevelius)
+- [Marca Alessandro](https://github.com/cialtronale)
 - [All Contributors](../../contributors)
 
 ## License

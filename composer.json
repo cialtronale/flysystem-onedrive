@@ -1,5 +1,5 @@
 {
-    "name": "hevelius/flysystem-onedrive",
+    "name": "cialtronale/flysystem-onedrive",
     "description": "Flysystem Adapter for the OneDrive API",
     "keywords": [
         "flysystem-onedrive",
@@ -7,17 +7,17 @@
         "onedrive",
         "api"
     ],
-    "homepage": "https://github.com/hevelius/flysystem-onedrive",
+    "homepage": "https://github.com/cialtronale/flysystem-onedrive",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mario Perrotta",
-            "email": "mario.perrotta@unimi.it",
+            "name": "Marca Alessandro",
+            "email": "alessandro.marca@unimi.it",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.0",
+        "php": " >= 7.0",
         "league/flysystem": "^1.0",
         "microsoft/microsoft-graph": "^1.0"
     },
