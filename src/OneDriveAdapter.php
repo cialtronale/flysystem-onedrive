@@ -325,7 +325,7 @@ class OneDriveAdapter extends AbstractAdapter
         $path = $this->applyPathPrefix($path);
 
         try {
-            $contents = $stream = \GuzzleHttp\Psr7\stream_for($contents);
+            $contents = $stream = \GuzzleHttp\Psr7\Utils::streamFor($contents);
 
             $file = $contents->getMetadata('uri');
             $fileSize = fileSize($file);
@@ -354,7 +354,7 @@ class OneDriveAdapter extends AbstractAdapter
                         $end = $fileNbByte;
                     }
 
-                    $stream = \GuzzleHttp\Psr7\stream_for($bytes);
+                    $stream = \GuzzleHttp\Psr7\Utils::streamFor($bytes);
 
                     $response = $this->graph->createRequest("PUT", $uploadSession->getUploadUrl())
                         ->addHeaders([
