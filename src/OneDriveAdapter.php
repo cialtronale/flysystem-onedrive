@@ -248,7 +248,7 @@ class OneDriveAdapter extends AbstractAdapter
                 }
             }
         } catch (\Exception $e) {
-            return false;
+            return [];
         }
 
         return $results;
